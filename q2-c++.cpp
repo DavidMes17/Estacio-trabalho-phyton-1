@@ -4,26 +4,28 @@ using namespace std;
 
 int main(void) {
     int result = 0;
+    int i;
 
-    while (i == 1000000000) 
+    while (i <= 1000000000) 
         {
-            result = result + i;
             if (i == 1000000)
             {
-                print(result);
+                cout << result;
             }
             else if (i == 10000000)
             {
-                print(result);
+                cout << result;
             }
             else if (i == 100000000)
             {
-                print(result);
+                cout << result;
             }
             else if (i == 1000000000)
             {
-                print(result);
+                cout << result;
             }
+            i++;
+            result = result + i;
     }
     
     return 0;
