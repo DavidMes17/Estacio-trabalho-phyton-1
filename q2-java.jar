@@ -1,22 +1,13 @@
 public class Main {
-        while (i == 1000000000) 
-        {
+    public static void main(String[] args) {
+        int result = 0;
+        int i = 0;
+        while (i <= 1000000000) {
+            if (i == 1000000 || i == 10000000 || i == 100000000 || i == 1000000000) {
+                System.out.println(result);
+            }
+            i++;
             result = result + i;
-            if (i == 1000000)
-            {
-                print(result);
-            }
-            else if (i == 10000000)
-            {
-                print(result);
-            }
-            else if (i == 100000000)
-            {
-                print(result);
-            }
-            else if (i == 1000000000)
-            {
-                print(result);
-            }
+        }
     }
 }
